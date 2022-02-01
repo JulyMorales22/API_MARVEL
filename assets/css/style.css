@@ -15,7 +15,7 @@ body{
 }
 
 .characters{
-    margin-top: 140px;
+    margin-top: 30px;
     margin-bottom: 60px;
 }
 
@@ -38,3 +38,10 @@ body{
     background: #2f3030;
     border-radius: 20px;
 }
+
+.divvideo {
+    margin: 0 auto;
+    display: block;
+  }
+
+
