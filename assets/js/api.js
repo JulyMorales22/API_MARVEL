@@ -25,13 +25,14 @@ const fillData = (data) =>{
     html += '<div class="card h-100 target">';
     html += `<img src="${ch.thumbnail.path+"."+ch.thumbnail.extension}" class="card-img-top" alt="">`;
     html += '<div class="card-body">';
-    html +=  `<h5 class="card-title">title: ${ch.title}</h5>`;
-    html +=  `<h5 class="card-title">id: ${ch.id}</h5>`;
-    html +=  `<h5 class="card-title">Page Count: ${ch.pageCount}</h5>`;
+    html +=  `<h5 class="card-title">Titulo: ${ch.title}</h5>`;
+    html +=  `<h5 class="card-title">Id: ${ch.id}</h5>`;
+    html +=  `<h5 class="card-title">Numero de paginas: ${ch.pageCount}</h5>`;
+    
     if (ch.description !="" & ch.description != "#N/A") {
-        html +=  `<h5 class="card-title">description: ${ch.description}</h5>`;
+        html +=  `<h5 class="card-title">Description: ${ch.textObjects[0]}</h5>`;
     }else{
-        html +=  `<h5 class="card-title">description: Este comic no cuenta con descripcion </h5>`;
+        html +=  `<h5 class="card-title">Description: Este comic no cuenta con descripcion </h5>`;
     }
     html += "</div>";
     html += '</div>';
