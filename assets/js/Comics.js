@@ -38,7 +38,7 @@ const fillData = (data) =>{
     html += '</div>';
     html += '</div>';
   });
-  document.getElementById("characters").innerHTML = html;
+  document.getElementById("comics").innerHTML = html;
 
 
 }
