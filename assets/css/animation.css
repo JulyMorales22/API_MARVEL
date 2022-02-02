@@ -59,8 +59,8 @@ body {
 
 .content__container__list {
   margin-top: 0;
-  padding-left: 110px;
-  text-align: left;
+  padding-left: 290px;
+  text-align: right;
   list-style: none;
   -webkit-animation-name: change;
   -webkit-animation-duration: 10s;
